@@ -1,6 +1,6 @@
 # GARX
 
-![版本号](https://img.shields.io/badge/Version-Beta--0.0.5-white)
+![version](https://img.shields.io/badge/Version-Beta--0.0.5-white)
 ![issues](https://img.shields.io/github/issues/medtty/garx?color=white)
 ![forks](https://img.shields.io/github/forks/medtty/garx)
 ![stars](https://img.shields.io/github/stars/medtty/garx)
