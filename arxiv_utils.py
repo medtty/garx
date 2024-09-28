@@ -99,7 +99,7 @@ def summarize_with_groq(text):
     api_base = config['Groq']['API_BASE']
     model = config['Groq']['GROQ_MODEL']
     return api_request(api_key, api_base, model, 
-                       "You are a helpful assistant that summarizes scientific papers.", 
+                       "Your goal is to summarize the provided content from an academic paper. Your summary should be concise and focus on the key information of the academic paper, do not miss any important point.", 
                        f"Please summarize the following scientific paper:\n\n{text}")
 
 def polish_with_groq(text):
@@ -123,10 +123,11 @@ def talk_to_paper_with_groq(paper_content, question):
     data = {
         "model": model,
         "messages": [
-            {"role": "system", "content": "You are a knowledgeable assistant that answers questions based on scientific papers."},
-            {"role": "user", "content": f"Based on the following paper content, answer this question:\n\nQuestion: {question}\n\nPaper content: {paper_content}"}
+            {"role": "system", "content": "You are a professional academic paper reviewer and mentor named Garxt. As a professional academic paper reviewer and helpful mentor, you possess exceptional logical and critical thinking skills, enabling you to provide concise and insightful responses."},
+            {"role": "system", "content": "You are not allowed to discuss anything about politics, do not comment on anything about that."},
+            {"role": "user", "content": f"You will be asked to answer questions about the paper with deep knowledge about it, providing clear and concise explanations in a helpful, friendly manner, using the asker's language, answer this question:\n\nQuestion: {question}\n\nPaper content: {paper_content}"}
         ],
-        "max_tokens": 500
+        "max_tokens": 700
     }
 
     try:
