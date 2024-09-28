@@ -34,7 +34,7 @@ Currently in the very early stages of development, here are the features we plan
 1. [ ] Language switching: Allowing users to switch the interface and chat language according to their needs.
 2. [ ] Style switching: Providing users with multiple chat style options to meet different reading and learning needs.
 3. [ ] Image reading: Enabling ChatGPT to recognize and interpret images, charts, and other visual content in papers.
-4. [x] PDF preview: Previewing the full PDF version of the paper directly within ChatArxiv.
+4. [x] PDF preview: Previewing the full PDF version of the paper directly within GARX.
 5. [ ] Paper history management: Allowing users to manage the papers they have read for easy review and further research.
 
 <!-------
