@@ -19,7 +19,7 @@ GARX is a project that uses Groq as an Arxiv paper reading assistant. With GARX,
 pip install -r requirements.txt
 ```
 
-**Launch Server**
+**Run the Script**
 ```bash
 python main.py
 ```
