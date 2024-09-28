@@ -26,7 +26,7 @@ python main.py
 
 **Basic Usage**  
 
-Input Groq API key and in `key.ini`，save the file and here you go.
+Input Groq API key in `key.ini`，save the file and here you go.
 
 ## Future Features
 Currently in the very early stages of development, here are the features we plan to add in future versions:
